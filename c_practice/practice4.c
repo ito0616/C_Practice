@@ -3,11 +3,11 @@
 int main() {
     int a, b, c, d;
     printf("クラスの人数を入力");
-    scanf("%d", &a);
+    scanf("%d\n", &a);
     printf("野球(9人)チームのチーム数");
-    scanf("%d", &b);
+    scanf("%d\n", &b);
     printf("バレー(6人)チームのチーム数");
-    scanf("%d", &c);
+    scanf("%d\n", &c);
     d = a - (b * 9 + c * 6);
 
     if ( d > 0){
